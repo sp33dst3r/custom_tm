@@ -19,7 +19,6 @@ class AdminController extends Controller
                     $_SESSION['user'] = 'admin';
                     header("Location: /task/index");
                 }
-                //pred($params);
             } else {
                 $params['errors'] = $errors;
             }
