@@ -1,0 +1,13 @@
+body{
+    padding: 10px;
+}
+.error{
+    color: red;
+}
+.sorting.active{
+    color: red;
+}
+#pagination > *{
+    margin-right: 10px;
+    font-size: 18px;
+}
